@@ -19,6 +19,7 @@ namespace ConsoleApp1
             }
             catch (Exception exp)
             {
+                //This have to work completly.
                 Console.WriteLine(exp.Message.ToString());
                 goto start;
             }
